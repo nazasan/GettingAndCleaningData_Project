@@ -1,5 +1,5 @@
 extractData <- function(data) {
-        ## Read the features.txt file to xtract only the measurements of mean and 
+        ## Read the features.txt file to extract only the measurements of mean and 
         ## standard desviation
         features <- read.table("./UCI HAR Dataset/features.txt")
         
@@ -8,6 +8,7 @@ extractData <- function(data) {
         pattern2 <- 'std()'
         selectFeatures <- data.frame()
         
+        ## Read all the data filtering by the patterns
         for(i in 1:561){
                 if(grepl(pattern1,features[i,2])) {
                         temp <- features[i,]
@@ -19,7 +20,7 @@ extractData <- function(data) {
                 }
         }
         
-        ## Select the 1 column (subject)
+        ## Select the column 1 (subject)
         ## Measurements selected and last column (activity)
         lindex <- c(1,selectFeatures$V1+1,563)
         selectData <- data[,lindex]
