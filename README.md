@@ -1,4 +1,4 @@
-### Course project: "Getting and cleaning data" 
+# Course project: "Getting and cleaning data" 
 
 ## Code steps
 * Step 1 - Getting the data
