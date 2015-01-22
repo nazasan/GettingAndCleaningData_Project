@@ -15,7 +15,8 @@ Export the information to a .txt file.
 This piece of work is done in run_analysis().  
         
 ## Final dataset
-You can find a description of the variables of the final dataset in the file [CodeBook](https://github.com/nazasan/GettingAndCleaningData_Project/blob/master/CodeBook) including in this project.
+You can find a description of the variables of the final dataset in the file [CodeBook](https://github.com/nazasan/GettingAndCleaningData_Project/blob/master/CodeBook) including in this project.   
+The final dataset contains 180 records (30 subjects x 6 activities) and 81 fields.
 
 
 
