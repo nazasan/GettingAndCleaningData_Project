@@ -1,8 +1,264 @@
-DATA DICTIONARY
+							DATA DICTIONARY
 
-Name				Position	Description							Typesubject 			1		An identifier of the subject who carried out the experiment	Integer from 1 to 30activity 			2		Activity done in the experiment					Text with values the following values: WALKING																		WALKING_UPSTAIRS																		WALKING_DOWNSTAIRS                
-																		SITTING																		STANDING                              
-																		LAYINGtBodyAcc-mean()-X 		3	Mean value for time body linear acceletarion (X component)			Numeric [-1,1]tBodyAcc-mean()-Y 		4	Mean value for time body linear acceletarion (Y component)			Numeric [-1,1]tBodyAcc-mean()-Z 		5	Mean value for time body linear acceletarion (Z component)			Numeric [-1,1]tBodyAcc-std()-X 		6	Standard desviation value for time body linear acceletarion (X component)	Numeric [-1,1]tBodyAcc-std()-Y 		7	Standard desviation value for time body linear acceletarion (Y component)	Numeric [-1,1]tBodyAcc-std()-Z 		8	Standard desviation value for time body linear acceletarion (Z component)	Numeric [-1,1]tGravityAcc-mean()-X 		9	Mean value for time gravity acceletarion (X component)				Numeric [-1,1]tGravityAcc-mean()-Y 		10	Mean value for time gravity acceletarion (Y component)				Numeric [-1,1]tGravityAcc-mean()-Z 		11	Mean value for time gravity acceletarion (Z component)				Numeric [-1,1]tGravityAcc-std()-X 		12	Standard desviation value for time gravity acceletarion (X component)		Numeric [-1,1]tGravityAcc-std()-Y 		13	Standard desviation value for time gravity acceletarion (Y component)		Numeric [-1,1]tGravityAcc-std()-Z 		14	Standard desviation value for time gravity acceletarion (Z component)		Numeric [-1,1]tBodyAccJerk-mean()-X 		15	Mean value for time Jerk body linear acceletarion (X component)			Numeric [-1,1]tBodyAccJerk-mean()-Y 		16	Mean value for time Jerk body linear acceletarion (Y component)			Numeric [-1,1]tBodyAccJerk-mean()-Z 		17	Mean value for time Jerk body linear acceletarion (Z component)			Numeric [-1,1]tBodyAccJerk-std()-X 		18	Standard desviation value for time Jerk body linear acceletarion (X component)	Numeric [-1,1]tBodyAccJerk-std()-Y 		19	Standard desviation value for time Jerk body linear acceletarion (Y component)	Numeric [-1,1]tBodyAccJerk-std()-Z 		20	Standard desviation value for time Jerk body linear acceletarion (Z component)	Numeric [-1,1]tBodyGyro-mean()-X 		21	Mean value for time body gyroscope (X component)				Numeric [-1,1]tBodyGyro-mean()-Y 		22	Mean value for time body gyroscope (Y component)				Numeric [-1,1]tBodyGyro-mean()-Z 		23	Mean value for time body gyroscope (Z component)				Numeric [-1,1]tBodyGyro-std()-X 		24	Standard desviation value for time body gyroscope (X component)			Numeric [-1,1]tBodyGyro-std()-Y 		25	Standard desviation value for time body gyroscope (Y component)			Numeric [-1,1]tBodyGyro-std()-Z 		26	Standard desviation value for time body gyroscope (Z component)			Numeric [-1,1]tBodyGyroJerk-mean()-X 		27	Mean value for time Jerk body gyroscope (X component)				Numeric [-1,1]tBodyGyroJerk-mean()-Y 		28	Mean value for time Jerk body gyroscope (Y component)				Numeric [-1,1]tBodyGyroJerk-mean()-Z 		29	Mean value for time Jerk body gyroscope (Z component)				Numeric [-1,1]tBodyGyroJerk-std()-X 		30	Standard desviation value for time Jerk body gyroscope (X component)		Numeric [-1,1]tBodyGyroJerk-std()-Y 		31	Standard desviation value for time Jerk body gyroscope (Y component)		Numeric [-1,1]tBodyGyroJerk-std()-Z 		32	Standard desviation value for time Jerk body gyroscope (Z component)		Numeric [-1,1]tBodyAccMag-mean() 		33	Mean value for time body linear acceletarion using Euclidean norm		Numeric [-1,1]tBodyAccMag-std() 		34	Standard desviation value for time body linear acceletarion using Euclidean norm(X component)	Numeric [-1,1]tGravityAccMag-mean() 		35	Mean value for time gravity using Euclidean norm				Numeric [-1,1]tGravityAccMag-std() 		36	Standard desviation value for time gravityn using Euclidean norm		Numeric [-1,1]tBodyAccJerkMag-mean() 		37	Standard desviation value for time Jerk body linear acceletarion using Euclidean norm 	Numeric [-1,1]tBodyAccJerkMag-std() 		38	Standard desviation value for time Jerk body linear acceletarion using Euclidean norm 	Numeric [-1,1]tBodyGyroMag-mean() 		39	Mean value for time body gyroscope using Euclidean norm 			Numeric [-1,1]tBodyGyroMag-std() 		40	Standard desviation value for time body gyroscope using Euclidean norm		Numeric [-1,1]tBodyGyroJerkMag-mean() 	41	Mean value for time Jerk body gyroscope using Euclidean norm 	Numeric [-1,1]tBodyGyroJerkMag-std() 		42	Standard desviation value for time Jerk body gyroscope using Euclidean norm	Numeric [-1,1]fBodyAcc-mean()-X 		43	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (X component)	Numeric [-1,1]fBodyAcc-mean()-Y 		44	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (Y component)	Numeric [-1,1]fBodyAcc-mean()-Z 		45	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (Z component)	Numeric [-1,1]fBodyAcc-std()-X 		46	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (X component)	Numeric [-1,1]fBodyAcc-std()-Y 		47	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (Y component)	Numeric [-1,1]fBodyAcc-std()-Z 		48	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (Z component)	Numeric [-1,1]fBodyAcc-meanFreq()-X 		49	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) 
-					body linear acceleration (X component)							Numeric [-1,1]fBodyAcc-meanFreq()-Y 		50	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) 
-					body linear acceleration (Y component)							Numeric [-1,1]fBodyAcc-meanFreq()-Z 		51	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) 
-					body linear acceleration (Z component)							Numeric [-1,1]fBodyAccJerk-mean()-X 		52	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (X component)	Numeric [-1,1]fBodyAccJerk-mean()-Y 		53	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Y component)	Numeric [-1,1]fBodyAccJerk-mean()-Z 		54	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Z component)	Numeric [-1,1]fBodyAccJerk-std()-X 		55	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (X component)	Numeric [-1,1]fBodyAccJerk-std()-Y 		56	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Y component)	Numeric [-1,1]fBodyAccJerk-std()-Z 		57	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Z component)	Numeric [-1,1]fBodyAccJerk-meanFreq()-X 	58	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body linear acceleration 					acceletarion (X component)	Numeric [-1,1]fBodyAccJerk-meanFreq()-Y 	59	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body linear acceleration 					acceletarion (Y component)	Numeric [-1,1]fBodyAccJerk-meanFreq()-Z 	60	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body linear acceleration 					acceletarion (Z component)	Numeric [-1,1]fBodyGyro-mean()-X 		61	Mean value for Fast Fourier Transform (FFT) body gyroscope (X component)	Numeric [-1,1]fBodyGyro-mean()-Y 		62	Mean value for Fast Fourier Transform (FFT) body gyroscope (Y component)	Numeric [-1,1]fBodyGyro-mean()-Z 		63	Mean value for Fast Fourier Transform (FFT) body gyroscope (Z component)	Numeric [-1,1]fBodyGyro-std()-X 		64	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (X component)	Numeric [-1,1]fBodyGyro-std()-Y 		65	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (Y component)	Numeric [-1,1]fBodyGyro-std()-Z 		66	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (Z component)	Numeric [-1,1]fBodyGyro-meanFreq()-X 		67	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body gyroscope (X component)					Numeric [-1,1]fBodyGyro-meanFreq()-Y 		68	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body gyroscope (Y component)					Numeric [-1,1]fBodyGyro-meanFreq()-Z 		69	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body gyroscope (Z component)					Numeric [-1,1]fBodyAccMag-mean() 		70	Mean value for Fast Fourier Transform (FFT) body linear acceletarion using Euclidean norm	Numeric [-1,1]fBodyAccMag-std() 		71	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion using Euclidean norm	Numeric [-1,1]fBodyAccMag-meanFreq() 		72	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body linear acceleration using 					Euclidean norm	Numeric [-1,1]fBodyAccJerkMag-mean() 		73	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion using Euclidean norm	Numeric [-1,1]fBodyAccJerkMag-std() 		74	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion using Euclidean norm	Numeric [-1,1]fBodyAccJerkMag-meanFreq() 	75	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body linear acceleration 					using Euclidean norm	Numeric [-1,1]fBodyGyroMag-mean() 		76	Mean value for Fast Fourier Transform (FFT) body gyroscope using Euclidean norm	Numeric [-1,1]fBodyGyroMag-std() 		77	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope using Euclidean norm	Numeric [-1,1]fBodyGyroMag-meanFreq() 	78	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body gyroscope using Euclidean norm	Numeric [-1,1]fBodyGyroJerkMag-mean() 	79	Mean value for Fast Fourier Transform (FFT) Jerk body gyroscope using Euclidean norm	Numeric [-1,1]fBodyGyroJerkMag-std() 		80	Standard desviation value for Fast Fourier Transform (FFT) Jerk body gyroscope using Euclidean norm	Numeric [-1,1]fBodyGyroJerkMag-meanFreq()	81	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body gyroscope using 					Euclidean norm	Numeric [-1,1]
+subject 					
+	An identifier of the subject who carried out the experiment	
+	Integer from 1 to 30
+activity 					
+	Activity done in the experiment					
+	Text field with the following values: 
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS                
+		SITTING
+		STANDING                              
+		LAYING
+tBodyAcc-mean()-X 			
+	Mean value for time body linear acceletarion (X component)			
+	Numeric [-1,1]
+tBodyAcc-mean()-Y 			
+	Mean value for time body linear acceletarion (Y component)			
+	Numeric [-1,1]
+tBodyAcc-mean()-Z 			
+	Mean value for time body linear acceletarion (Z component)			
+	Numeric [-1,1]
+tBodyAcc-std()-X 			
+	Standard desviation value for time body linear acceletarion (X component)	
+	Numeric [-1,1]
+tBodyAcc-std()-Y 			
+	Standard desviation value for time body linear acceletarion (Y component)	
+	Numeric [-1,1]
+tBodyAcc-std()-Z 			
+	Standard desviation value for time body linear acceletarion (Z component)	
+	Numeric [-1,1]
+tGravityAcc-mean()-X 			
+	Mean value for time gravity acceletarion (X component)				
+	Numeric [-1,1]
+tGravityAcc-mean()-Y 			
+	Mean value for time gravity acceletarion (Y component)				
+	Numeric [-1,1]
+tGravityAcc-mean()-Z 			
+	Mean value for time gravity acceletarion (Z component)				
+	Numeric [-1,1]
+tGravityAcc-std()-X 			
+	Standard desviation value for time gravity acceletarion (X component)		
+	Numeric [-1,1]
+tGravityAcc-std()-Y 			
+	Standard desviation value for time gravity acceletarion (Y component)		
+	Numeric [-1,1]
+tGravityAcc-std()-Z 			
+	Standard desviation value for time gravity acceletarion (Z component)		
+	Numeric [-1,1]
+tBodyAccJerk-mean()-X 			
+	Mean value for time Jerk body linear acceletarion (X component)			
+	Numeric [-1,1]
+tBodyAccJerk-mean()-Y 			
+	Mean value for time Jerk body linear acceletarion (Y component)			
+	Numeric [-1,1]
+tBodyAccJerk-mean()-Z 			
+	Mean value for time Jerk body linear acceletarion (Z component)			
+	Numeric [-1,1]
+tBodyAccJerk-std()-X 			
+	Standard desviation value for time Jerk body linear acceletarion (X component)	
+	Numeric [-1,1]
+tBodyAccJerk-std()-Y 			
+	Standard desviation value for time Jerk body linear acceletarion (Y component)	
+	Numeric [-1,1]
+tBodyAccJerk-std()-Z 			
+	Standard desviation value for time Jerk body linear acceletarion (Z component)	
+	Numeric [-1,1]
+tBodyGyro-mean()-X 			
+	Mean value for time body gyroscope (X component)				
+	Numeric [-1,1]
+tBodyGyro-mean()-Y 			
+	Mean value for time body gyroscope (Y component)				
+	Numeric [-1,1]
+tBodyGyro-mean()-Z 			
+	Mean value for time body gyroscope (Z component)				
+	Numeric [-1,1]
+tBodyGyro-std()-X 			
+	Standard desviation value for time body gyroscope (X component)			
+	Numeric [-1,1]
+tBodyGyro-std()-Y 			
+	Standard desviation value for time body gyroscope (Y component)			
+	Numeric [-1,1]
+tBodyGyro-std()-Z 			
+	Standard desviation value for time body gyroscope (Z component)			
+	Numeric [-1,1]
+tBodyGyroJerk-mean()-X 			
+	Mean value for time Jerk body gyroscope (X component)				
+	Numeric [-1,1]
+tBodyGyroJerk-mean()-Y 			
+	Mean value for time Jerk body gyroscope (Y component)				
+	Numeric [-1,1]
+tBodyGyroJerk-mean()-Z 		
+	Mean value for time Jerk body gyroscope (Z component)				
+	Numeric [-1,1]
+tBodyGyroJerk-std()-X 			
+	Standard desviation value for time Jerk body gyroscope (X component)		
+	Numeric [-1,1]
+tBodyGyroJerk-std()-Y 			
+	Standard desviation value for time Jerk body gyroscope (Y component)		
+	Numeric [-1,1]
+tBodyGyroJerk-std()-Z 			
+	Standard desviation value for time Jerk body gyroscope (Z component)		
+	Numeric [-1,1]
+tBodyAccMag-mean() 			
+	Mean value for time body linear acceletarion using Euclidean norm		
+	Numeric [-1,1]
+tBodyAccMag-std() 			
+	Standard desviation value for time body linear acceletarion using Euclidean norm(X component)	
+	Numeric [-1,1]
+tGravityAccMag-mean() 			
+	Mean value for time gravity using Euclidean norm				
+	Numeric [-1,1]
+tGravityAccMag-std() 			
+	Standard desviation value for time gravityn using Euclidean norm		
+	Numeric [-1,1]
+tBodyAccJerkMag-mean() 			
+	Standard desviation value for time Jerk body linear acceletarion using Euclidean norm 	
+	Numeric [-1,1]
+tBodyAccJerkMag-std() 			
+	Standard desviation value for time Jerk body linear acceletarion using Euclidean norm 	
+	Numeric [-1,1]
+tBodyGyroMag-mean() 			
+	Mean value for time body gyroscope using Euclidean norm 			
+	Numeric [-1,1]
+tBodyGyroMag-std() 			
+	Standard desviation value for time body gyroscope using Euclidean norm		
+	Numeric [-1,1]
+tBodyGyroJerkMag-mean() 		
+	Mean value for time Jerk body gyroscope using Euclidean norm 	
+	Numeric [-1,1]
+tBodyGyroJerkMag-std() 			
+	Standard desviation value for time Jerk body gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyAcc-mean()-X 			
+	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (X component)	
+	Numeric [-1,1]
+fBodyAcc-mean()-Y 			
+	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (Y component)	
+	Numeric [-1,1]
+fBodyAcc-mean()-Z 			
+	Mean value for Fast Fourier Transform (FFT) body linear acceletarion (Z component)	
+	Numeric [-1,1]
+fBodyAcc-std()-X 			
+	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (X component)	
+	Numeric [-1,1]
+fBodyAcc-std()-Y 			
+	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (Y component)	
+	Numeric [-1,1]
+fBodyAcc-std()-Z 			
+	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion (Z component)	
+	Numeric [-1,1]
+fBodyAcc-meanFreq()-X 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	linear acceleration (X component)							
+	Numeric [-1,1]
+fBodyAcc-meanFreq()-Y 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	linear acceleration (Y component)							
+	Numeric [-1,1]
+fBodyAcc-meanFreq()-Z 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) 
+	body linear acceleration (Z component)							
+	Numeric [-1,1]
+fBodyAccJerk-mean()-X 			
+	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (X component)	
+	Numeric [-1,1]
+fBodyAccJerk-mean()-Y 			
+	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Y component)	
+	Numeric [-1,1]
+fBodyAccJerk-mean()-Z 			
+	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Z component)	
+	Numeric [-1,1]
+fBodyAccJerk-std()-X 			
+	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (X component)	
+	Numeric [-1,1]
+fBodyAccJerk-std()-Y 			
+	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Y component)	
+	Numeric [-1,1]
+fBodyAccJerk-std()-Z 			
+	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion (Z component)	
+	Numeric [-1,1]
+fBodyAccJerk-meanFreq()-X 		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body 
+	linear acceleration (X component)	
+	Numeric [-1,1]
+fBodyAccJerk-meanFreq()-Y 		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body 
+	linear acceleration (Y component)	
+	Numeric [-1,1]
+fBodyAccJerk-meanFreq()-Z 		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk body 
+	linear acceleration (Z component)	
+	Numeric [-1,1]
+fBodyGyro-mean()-X 			
+	Mean value for Fast Fourier Transform (FFT) body gyroscope (X component)	
+	Numeric [-1,1]
+fBodyGyro-mean()-Y 			
+	Mean value for Fast Fourier Transform (FFT) body gyroscope (Y component)	
+	Numeric [-1,1]
+fBodyGyro-mean()-Z 			
+	Mean value for Fast Fourier Transform (FFT) body gyroscope (Z component)	
+	Numeric [-1,1]
+fBodyGyro-std()-X 			
+	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (X component)	
+	Numeric [-1,1]
+fBodyGyro-std()-Y 			
+	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (Y component)	
+	Numeric [-1,1]
+fBodyGyro-std()-Z 			
+	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope (Z component)	
+	Numeric [-1,1]
+fBodyGyro-meanFreq()-X 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	gyroscope (X component)					
+	Numeric [-1,1]
+fBodyGyro-meanFreq()-Y 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	gyroscope (Y component)					
+	Numeric [-1,1]
+fBodyGyro-meanFreq()-Z 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	gyroscope (Z component)					
+	Numeric [-1,1]
+fBodyAccMag-mean() 			
+	Mean value for Fast Fourier Transform (FFT) body linear acceletarion using Euclidean norm	
+	Numeric [-1,1]
+fBodyAccMag-std() 			
+	Standard desviation value for Fast Fourier Transform (FFT) body linear acceletarion using Euclidean norm	
+	Numeric [-1,1]
+fBodyAccMag-meanFreq() 			
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	linear acceleration using Euclidean norm	
+	Numeric [-1,1]
+fBodyAccJerkMag-mean() 			
+	Mean value for Fast Fourier Transform (FFT) Jerk body linear acceletarion using Euclidean norm	
+	Numeric [-1,1]
+fBodyAccJerkMag-std() 			
+	Standard desviation value for Fast Fourier Transform (FFT) Jerk body linear acceletarion using Euclidean norm	
+	Numeric [-1,1]
+fBodyAccJerkMag-meanFreq() 		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk 
+	body linear acceleration using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroMag-mean() 			
+	Mean value for Fast Fourier Transform (FFT) body gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroMag-std() 			
+	Standard desviation value for Fast Fourier Transform (FFT) body gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroMag-meanFreq() 		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) body 
+	gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroJerkMag-mean() 		
+	Mean value for Fast Fourier Transform (FFT) Jerk body gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroJerkMag-std() 			
+	Standard desviation value for Fast Fourier Transform (FFT) Jerk body gyroscope using Euclidean norm	
+	Numeric [-1,1]
+fBodyGyroJerkMag-meanFreq()		
+	Weighted average of the frequency components to obtain a mean frequency value for Fast Fourier Transform (FFT) Jerk 
+	body gyroscope using Euclidean norm	
+	Numeric [-1,1]
